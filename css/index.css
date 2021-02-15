@@ -1,0 +1,108 @@
+
+.logo{
+    border-radius: 50%;
+}
+.bgblue{
+    background-color: rgb(38, 2, 78);
+    box-shadow:0px 1px 2px 2px rgba(0, 0, 0, 0.4);
+   position: fixed;
+   top: 0%;
+}
+.navbar{
+    background-color: rgb(38, 2, 78);
+}
+.nav-link{
+    color: white;
+}
+.blue{
+    color:rgb(38, 2, 78) ;
+}
+.red{
+    color: #dc3545;
+}
+.bgcolor{
+    background-color: rgb(38, 2, 78);
+
+}.bgcolor3{
+    background-color: rgba(37, 2, 78, 0.724);
+}
+.bgcolor2{
+    background-color: #d3061a;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.4);
+    top: 0;
+    /* transition: 30s linear;/l/ */
+
+}
+.carousel-images{
+    background-size: cover;
+}
+.carousel-indicators li{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: rgba(37, 2, 78, 0.924);
+/* margin: ; */
+}
+.back{
+    background-color: #dc3545;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+    display: block;
+}
+.social{
+    border: 2px solid white;
+    border-radius: 50%;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.social2{
+    border: 2px solid white;
+    border-radius: 50%;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.social3{
+    border: 2px solid white;
+    border-radius: 50%;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.footer li{
+    list-style-type: none;
+}
+.contact{
+    width: 70%;
+}
+
+@keyframes color{
+      0%{
+          background-color: transparent;
+      }
+      50%{
+          background-color: red;
+          color: white;
+      }
+      100%{
+          background-color: transparent;
+      }
+}
+@media screen and (max-width:1200px){
+     .prenav{
+         display: none;
+     }
+}
+@media screen and (max-width:991px){
+
+}

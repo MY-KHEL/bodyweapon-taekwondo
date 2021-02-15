@@ -1,0 +1,30 @@
+.boxx{
+    width: 100%;
+}
+.head{
+    color:rgb(38, 2, 78);
+}
+.bgcolor2{
+    background-color: #d3061a;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.4);
+    top: 0;
+    /* transition: 30s linear;/l/ */
+
+}
+@media screen and (max-width:767px){
+    .section{
+        background-image: url('../images/taekwon.jpg');
+        background-size: cover;
+        color: white;
+        background-attachment: fixed;
+    }
+    .boxx{
+        background: rgba(0, 0, 0, 0.749);
+    }
+    .head{
+        color: #fff;
+    }
+}
